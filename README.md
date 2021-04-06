@@ -13,25 +13,26 @@ Here I have used [Cucumber](https://cucumber.io/docs/guides/10-minute-tutorial/)
 aryaniiit002@ENIAC:~/Desktop/PracticeBDD$ mvn test
 [INFO] Scanning for projects...
 [INFO] 
-[INFO] --------------------< hellocucumber:hellocucumber >---------------------
-[INFO] Building hellocucumber 1.0.0-SNAPSHOT
+[INFO] ------------------------------< BDD:BDD >-------------------------------
+[INFO] Building BDD 1.0.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hellocucumber ---
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BDD ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /home/aryaniiit002/Desktop/PracticeBDD/src/main/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ hellocucumber ---
-[INFO] No sources to compile
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ BDD ---
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
-[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hellocucumber ---
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BDD ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 2 resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ hellocucumber ---
-[INFO] Nothing to compile - all classes are up to date
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ BDD ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /home/aryaniiit002/Desktop/PracticeBDD/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hellocucumber ---
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ BDD ---
 [INFO] Surefire report directory: /home/aryaniiit002/Desktop/PracticeBDD/target/surefire-reports
 
 -------------------------------------------------------
@@ -64,18 +65,21 @@ Scenario: Withdraw amount unsafely                 # javabdd/withdraw.feature:8
 │ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
 │ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
 └───────────────────────────────────────────────────────────────────────────────────┘
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.658 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.68 sec
 Running javabdd.banking.BankingTest
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running truth.GoogleTruthUnitTest
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.124 sec
 
 Results :
 
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 72, Failures: 0, Errors: 0, Skipped: 3
 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.068 s
-[INFO] Finished at: 2021-04-06T13:26:03+05:30
+[INFO] Total time:  3.084 s
+[INFO] Finished at: 2021-04-06T15:50:34+05:30
 [INFO] ------------------------------------------------------------------------
+
 ```
