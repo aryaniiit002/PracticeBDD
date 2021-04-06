@@ -1,6 +1,6 @@
 # PracticeBDD
 #### BDD - [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
-#### Truth - [Truth](https://truth.dev/) is a library for performing assertions in tests
+#### Google Truth - [Truth](https://truth.dev/) is a library for performing assertions in tests
 
 
 This is a practice project of  [Project of BDD](https://github.com/checkstyle/checkstyle/wiki/Checkstyle-GSoC-2021-Project-Ideas#project-name-adaptation-of-behavior-driven-development-ideas-for-testing-of-source-code-validation-algorithms) and [Truth](https://github.com/google/truth) for [Checkstyle](https://checkstyle.org/) for GSoC' 2021.
