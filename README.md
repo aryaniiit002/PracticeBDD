@@ -7,7 +7,7 @@ This is a practice (GSoC' 2021) [Project of BDD](https://github.com/checkstyle/c
 Here I have used [Cucumber](https://cucumber.io/docs/guides/10-minute-tutorial/) for doing BDD, jUnit for doing the unit testing and Maven for the project build.
 
 
-### Terminal Output -
+### Terminal Output :
 
 ```
 aryaniiit002@ENIAC:~/Desktop/PracticeBDD$ mvn test
